@@ -16,6 +16,8 @@
 		F9662B0824ED168300070CE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9662B0624ED168300070CE2 /* LaunchScreen.storyboard */; };
 		F9662B1324ED168300070CE2 /* DispatchtrackTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9662B1224ED168300070CE2 /* DispatchtrackTests.swift */; };
 		F9662B1E24ED168300070CE2 /* DispatchtrackUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9662B1D24ED168300070CE2 /* DispatchtrackUITests.swift */; };
+		F9662B2C24ED1E1B00070CE2 /* Students.json in Resources */ = {isa = PBXBuildFile; fileRef = F9662B2B24ED1E1B00070CE2 /* Students.json */; };
+		F9662B3024ED1FD900070CE2 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9662B2F24ED1FD900070CE2 /* StudentModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		F9662B1924ED168300070CE2 /* DispatchtrackUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DispatchtrackUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9662B1D24ED168300070CE2 /* DispatchtrackUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchtrackUITests.swift; sourceTree = "<group>"; };
 		F9662B1F24ED168300070CE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9662B2B24ED1E1B00070CE2 /* Students.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Students.json; sourceTree = "<group>"; };
+		F9662B2F24ED1FD900070CE2 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,8 @@
 		F9662AF724ED167900070CE2 /* Dispatchtrack */ = {
 			isa = PBXGroup;
 			children = (
+				F9662B2E24ED1FBE00070CE2 /* Model */,
+				F9662B2D24ED1E2000070CE2 /* StudentsJson */,
 				F9662AF824ED167900070CE2 /* AppDelegate.swift */,
 				F9662AFA24ED167900070CE2 /* SceneDelegate.swift */,
 				F9662AFC24ED167900070CE2 /* ViewController.swift */,
@@ -129,6 +135,22 @@
 				F9662B1F24ED168300070CE2 /* Info.plist */,
 			);
 			path = DispatchtrackUITests;
+			sourceTree = "<group>";
+		};
+		F9662B2D24ED1E2000070CE2 /* StudentsJson */ = {
+			isa = PBXGroup;
+			children = (
+				F9662B2B24ED1E1B00070CE2 /* Students.json */,
+			);
+			path = StudentsJson;
+			sourceTree = "<group>";
+		};
+		F9662B2E24ED1FBE00070CE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F9662B2F24ED1FD900070CE2 /* StudentModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,6 +260,7 @@
 				F9662B0824ED168300070CE2 /* LaunchScreen.storyboard in Resources */,
 				F9662B0524ED168300070CE2 /* Assets.xcassets in Resources */,
 				F9662B0024ED167900070CE2 /* Main.storyboard in Resources */,
+				F9662B2C24ED1E1B00070CE2 /* Students.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +288,7 @@
 				F9662AFD24ED167900070CE2 /* ViewController.swift in Sources */,
 				F9662AF924ED167900070CE2 /* AppDelegate.swift in Sources */,
 				F9662AFB24ED167900070CE2 /* SceneDelegate.swift in Sources */,
+				F9662B3024ED1FD900070CE2 /* StudentModel.swift in Sources */,
 				F9662B0324ED167900070CE2 /* Dispatchtrack.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +470,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nooor.Dispatchtrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -463,7 +487,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.Nooor.Dispatchtrack;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
